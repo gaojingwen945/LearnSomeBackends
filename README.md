@@ -19,10 +19,10 @@
 
 WEB-INF目录下有两个配置文件需要注意：
 
-1. web.xml，web app入口（[Spring MVC的web.xml配置详解(转)](https://www.cnblogs.com/apimhnkj/p/10404891.html)）：配置文件的根为<web-app></web-app>，tomcat加载war的时候会去读该入库文件，该文件中指定：1、servlet、servlet-mapping拦截规则；2、filter过滤器（编码格式等）；3、context-param contextConfigLocation配置；4、欢迎页、错误页；5、session-config会话配置（如超时时长session-timeout）； 
-2. root-context.xml（或param-name-servlet.xml、application.xml）文件，由web.xml中的contextConfigLocation属性指定（[applicationContext.xml文档解析](https://blog.csdn.net/shenhaiyushitiaoyu/article/details/84100822)）：配置文件的根为<beans></beans>，配置组件扫描器、依赖注入、bean属性等。 
+1. web.xml，web app入口（[Spring MVC的web.xml配置详解(转)](https://www.cnblogs.com/apimhnkj/p/10404891.html)）：配置文件的根为\<web-app>\</web-app>，tomcat加载war的时候会去读该入库文件，该文件中指定：1、servlet、servlet-mapping拦截规则；2、filter过滤器（编码格式等）；3、context-param contextConfigLocation配置；4、欢迎页、错误页；5、session-config会话配置（如超时时长session-timeout）； 
+2. root-context.xml（或param-name-servlet.xml、application.xml）文件，由web.xml中的contextConfigLocation属性指定（[applicationContext.xml文档解析](https://blog.csdn.net/shenhaiyushitiaoyu/article/details/84100822)）：配置文件的根为\<beans>\</beans>，配置组件扫描器、依赖注入、bean属性等。 
 
-## spring boot配置文件pom.xml：配置文件的根为<project></project>，设置编码格式、framework版本、依赖组件、构建配置 
+## spring boot配置文件pom.xml：配置文件的根为\<project>\</project>，设置编码格式、framework版本、依赖组件、构建配置 
 
 ## 如何部署服务
 
