@@ -3,9 +3,11 @@
 
 # 学习路径
 
-## spring framework体系结构（[spring framework体系结构](https://www.cnblogs.com/ywlaker/p/6136625.html)）：core、aop、data access、web、test 
+## ✅ spring framework体系结构（[spring framework体系结构](https://www.cnblogs.com/ywlaker/p/6136625.html)）
 
-## spring webapp目录结构：[spring web app的结构](https://www.cnblogs.com/hustdc/p/9548150.html) 
+core、aop、data access、web、test 
+
+## ✅ spring webapp目录结构：[spring web app的结构](https://www.cnblogs.com/hustdc/p/9548150.html) 
 
 ​    src
 
@@ -22,7 +24,9 @@ WEB-INF目录下有两个配置文件需要注意：
 1. web.xml，web app入口（[Spring MVC的web.xml配置详解(转)](https://www.cnblogs.com/apimhnkj/p/10404891.html)）：配置文件的根为\<web-app>\</web-app>，tomcat加载war的时候会去读该入库文件，该文件中指定：1、servlet、servlet-mapping拦截规则；2、filter过滤器（编码格式等）；3、context-param contextConfigLocation配置；4、欢迎页、错误页；5、session-config会话配置（如超时时长session-timeout）； 
 2. root-context.xml（或param-name-servlet.xml、application.xml）文件，由web.xml中的contextConfigLocation属性指定（[applicationContext.xml文档解析](https://blog.csdn.net/shenhaiyushitiaoyu/article/details/84100822)）：配置文件的根为\<beans>\</beans>，配置组件扫描器、依赖注入、bean属性等。 
 
-## spring boot配置文件pom.xml：配置文件的根为\<project>\</project>，设置编码格式、framework版本、依赖组件、构建配置 
+## ✅ spring boot配置文件pom.xml
+
+配置文件的根为\<project>\</project>，设置编码格式、framework版本、依赖组件、构建配置 
 
 ## 如何部署服务
 
@@ -47,9 +51,13 @@ WEB-INF目录下有两个配置文件需要注意：
 
 ​            5、gulp 运行项目
 
-## postman：入门 - done，进阶 - todo 
+## ✅ postman的使用
 
-## 抓包：Charles 
+入门 - done，直接跟着postman帮助教程来就好
+
+进阶 - todo 
+
+## ✅ 抓包：Charles 
 
 ## 看一下springmvc的框架中，如何讲解controller，service，DAO 这几层 
 
